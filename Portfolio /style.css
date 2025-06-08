@@ -1,0 +1,179 @@
+* {
+    margin : 0;
+    padding : 0;
+    border : border-box;
+    font-family : Arial,sans-serif;
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    white-space: nowrap; /* Keep text in one line */
+    cursor: pointer;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* Container for GitHub, LinkedIn, and Gmail */
+.GitHub, .LinkedIn, .Gmail {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: auto; /* Push this group to the right */
+    gap: 5px;
+}
+
+/* panel */
+.panel {
+    height: 40px;
+    background-color:  #2b2b2b;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all {
+    margin-left: 20px;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+    margin-left: 20px;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: auto; /* Push this group to the right */
+    gap: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+.hero-text {
+    max-width: 60%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #555;
+}
+
+.hero-buttons button {
+    margin: 10px 10px 0 0;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.skills {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+.skills h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.skills p {
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    color: #555;
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.skills-icons img {
+    width: 60px;
+}
+
+.Certifications {
+    text-align: center;;
+    margin: 50px 20px;
+}
+
+.Certifications h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.Certifications p {
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    color: #555;
+}
+
+.certifications-content {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #2b2b2b;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
