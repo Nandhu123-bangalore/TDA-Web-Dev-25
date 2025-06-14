@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio using Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+      
+  <body class="font-[Poppins] bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] text-black">
+    <div class="min-h-screen flex flex-col">
+
+      <!-- Navigation -->
+      <header class="p-4">
+        <nav class="flex flex-wrap justify-between items-center w-[92%] mx-auto bg-white p-4 w-full rounded-full ">
+          <div><i class="fa-solid fa-bars"></i></div>
+          <ul class="flex flex-wrap items-center gap-6 mt-4 md:mt-0">
+            <li><a class="hover:text-blue-600" href="#">LinkedIn</a></li>
+            <li><a class="hover:text-blue-600" href="#">Gmail</a></li>
+            <li><a class="hover:text-blue-600" href="#">GitHub</a></li>
+            <li><a class="hover:text-blue-600" href="#">Instagram</a></li>
+            <li><a class="hover:text-blue-600" href="#">Twitter</a></li>
+            <li><button class="bg-[#a6c1ee] text-white px-4 py-2 rounded-full hover:bg-[#87acec]">My Portfolio</button></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="flex flex-col md:flex-row justify-between items-center px-10 py-12">
+        <div class="md:w-3/5">
+          <h1 class="text-4xl md:text-5xl font-bold mb-5">Hi, I'm Nandhitha Chowdary Surapaneni <span>👋</span></h1>
+          <p class="text-lg text-gray-700 mb-6">I'm a passionate learner and problem solver with a strong interest in technology, design, and creative storytelling. I thrive on building things that have purpose and impact.</p>
+          <div class="space-x-4">
+            <button class="mt-2 px-4 py-2 border border-gray-300 rounded bg-white hover:bg-gray-100">Skills</button>
+            <button class="mt-2 px-4 py-2 border border-gray-300 rounded bg-white hover:bg-gray-100">Testimony</button>
+            <button class="mt-2 px-4 py-2 border border-gray-300 rounded bg-white hover:bg-gray-100">Contact</button>
+          </div>
+        </div>
+        <div class="md:w-2/5 mt-10 md:mt-0">
+          <img src="Portfoliopic.jpeg" alt="Nandhithapic" class="w-64 rounded-full mx-auto" />
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="text-center px-4 py-10">
+        <h2 class="text-3xl font-semibold mb-4">Skills</h2>
+        <p class="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">Hands-on experience with fundamentals of:</p>
+        <div class="flex flex-wrap justify-center gap-8">
+          <img src="HTML.png" alt="HTML" class="w-16" />
+          <img src="CSS.svg" alt="CSS" class="w-16" />
+          <img src="SQL.png" alt="SQL" class="w-16" />
+          <img src="generative-ai-tools.jpg" alt="Generative AI Tools" class="w-16" />
+          <img src="Linux.jpg" alt="Linux" class="w-16" />
+          <img src="CyberSecurity.jpg" alt="Cyber Security" class="w-16" />
+          <img src="Python.webp" alt="Python" class="w-16" />
+          <img src="C.png" alt="C" class="w-16" />
+          <img src="C++.png" alt="C++" class="w-16" />
+        </div>
+      </section>
+
+        <!-- Certifications -->
+      <section class="px-4 py-12 bg-light">
+        <h2 class="text-3xl font-semibold text-center mb-10 text-primary">Certifications</h2>
+        <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+          <!-- Card -->
+          <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+            <p class="font-semibold">Introduction to SQL</p>
+            <p class="text-sm text-gray-600">University of Michigan</p>
+          </div>
+          <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+            <p class="font-semibold">Generative AI Tools</p>
+            <p class="text-sm text-gray-600">Google</p>
+          </div>
+          <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+            <p class="font-semibold">Foundations of CyberSecurity</p>
+            <p class="text-sm text-gray-600">Google</p>
+          </div>
+          <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+            <p class="font-semibold">Linux Commands</p>
+            <p class="text-sm text-gray-600">IBM</p>
+          </div>
+          <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+            <p class="font-semibold">Prompt Engineering</p>
+            <p class="text-sm text-gray-600">Infosys Springboard</p>
+          </div>
+          <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+            <p class="font-semibold">Front-End Development</p>
+            <p class="text-sm text-gray-600">Meta</p>
+          </div>
+          <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+            <p class="font-semibold">Software Testing Life Cycle</p>
+            <p class="text-sm text-gray-600">Udemy</p>
+          </div>
+          <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+            <p class="font-semibold">Data Analysis with Pandas</p>
+            <p class="text-sm text-gray-600">Coursera</p>
+          </div>
+          <div class="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition">
+            <p class="font-semibold">Artificial Intelligence</p>
+            <p class="text-sm text-gray-600">Infosys Springboard</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="text-center py-8 mt-auto">
+        <p>-----------------------------------------------------------</p>
+        <h3 class="text-xl font-semibold mb-2">Let's Work Together</h3>
+        <p class="mb-1">Contact: <a href="mailto:nandhitha.surapaneni@gmail.com" class="underline">nandhitha.surapaneni@gmail.com</a></p>
+        <p>Phone: +91 8951659477</p>
+      </footer>
+
+    </div>
+  </body>
+</html>
